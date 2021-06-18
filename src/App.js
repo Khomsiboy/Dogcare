@@ -16,7 +16,7 @@ function App() {
           <Route path="/register">
             <Register/>
           </Route>
-          <Route path="/info">
+          <Route path="/info/:chipNumber">
             <Info/>
           </Route>
         </Switch>

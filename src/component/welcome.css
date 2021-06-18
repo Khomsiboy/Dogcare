@@ -1,0 +1,29 @@
+.button {
+  text-align: center;
+  border: none;
+  outline: 0;
+  display: block;
+  padding: 8px;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #7f00ff;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 6%;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.slogan {
+  margin-top: 90px;
+  text-align: center;
+}

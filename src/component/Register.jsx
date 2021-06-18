@@ -21,20 +21,20 @@ const Register = () => {
     },[])
 
     return( 
-       
+
+    
+        
         <section class="container">
            
          
        
              {data.map(dogs => 
-               
-             
                   <div class="card">
                       <div><img className="card-image" src={dogs.img} alt="dog"/></div>
                       <h2>{dogs.name}</h2>
                       <p>Breed:{dogs.breed}<br/>Age:  {dogs.age}</p>
 
-                      <a href="">SHOW</a>
+                      <Link to={"/info/"+dogs.chipNumber}>SHOW</Link>
                   </div>
              
          )}
