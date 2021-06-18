@@ -21,7 +21,7 @@ const Welcome = () =>{
          
          </Link>
 
-         <div className="slogan">
+         <div className="slogan">    
            <h1>Let Our Experience be Your Guide</h1>
            <img  src={Dog} width={200} height={200}/>
          </div>
